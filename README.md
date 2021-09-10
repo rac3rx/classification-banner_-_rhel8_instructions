@@ -39,6 +39,14 @@
 
     # start snip (don't copy)
 
+        grep ^Release classification-banner.spec
+        Release:        11%{?dist}
+
+    # end snip (don't copy)
+
+
+    # start snip (don't copy)
+
         grep -B 1 -A 2 -i 'Chris' classification-banner.spec
 
         grep -B 1 -A 2 -i 'Chris' classification-banner.spec
