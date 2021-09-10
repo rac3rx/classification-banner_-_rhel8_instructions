@@ -1,1 +1,3 @@
-# classification-banner_-_rhel8_instructions
+# classification-banner
+
+The classification-banner package
