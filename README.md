@@ -37,24 +37,22 @@
 
 # updated changelog, since it was originally for fedora and now it's rhel8.4; it's under "%changelog"
 
-    # start snip (don't copy)
+    # start snip (don't copy; this is a comment)
 
         grep ^Release classification-banner.spec
         Release:        11%{?dist}
 
-    # end snip (don't copy)
+    # end snip (don't copy; this is a comment)
 
 
-    # start snip (don't copy)
-
-        grep -B 1 -A 2 -i 'Chris' classification-banner.spec
+    # start snip (don't copy; this is a comment)
 
         grep -B 1 -A 2 -i 'Chris' classification-banner.spec
         %changelog
         * Fri Sep 10 2021 Chris H <github.com/rac3rx> - 1.7.0-11
           - Rebuilt for rhel8.4
 
-    # end snip (don't copy)
+    # end snip (don't copy; this is a comment)
 
     rpmlint classification-banner.spec                        # verify we didn't introduce errors
     
